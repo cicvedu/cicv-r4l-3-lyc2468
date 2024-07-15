@@ -163,4 +163,11 @@ config SAMPLE_RUST_SELFTESTS
 
 	  If unsure, say N.
 
+config SAMPLE_RUST_HELLOWORLD
+	tristate "Hello world by skies"
+	help
+	  This option builds the rust host program samples.
+	  
+	  If unsure, say N.
+
 endif # SAMPLES_RUST
